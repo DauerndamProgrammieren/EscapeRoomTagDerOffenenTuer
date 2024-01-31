@@ -14,8 +14,12 @@ function time() {
         i = 0;
       } else {
         var butin = document.getElementById("timertext");
+        var butins = document.getElementById("timertextmin");
         var clocktimer = starttime - round;
-        butin.innerHTML = clocktimer + "s";
+        var clocktimemin = Math.floor(clocktimer / 60);
+        var clocktimesec = clocktimer - (clocktimemin*60);
+        butin.innerHTML = clocktimemin + "min";
+        butins.innerHTML = clocktimesec + "s";
         width = width - clocktime;
         elem.style.width = width + "%";
         round++;

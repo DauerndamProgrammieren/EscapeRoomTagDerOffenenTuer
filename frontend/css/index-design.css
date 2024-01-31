@@ -59,8 +59,18 @@ iframe {
     font-family: "Arial", Times, serif;
 }
 
-.timertext {
-    
+#timertext {
+    margin-left: 45%;
+    font-size: 300%;
+    font-family: "Arial", Times, serif;
+    color: whitesmoke;
+}
+
+#timertextmin {
+    margin-left: 1%;
+    font-size: 300%;
+    font-family: "Arial", Times, serif;
+    color: white;
 }
 
 
