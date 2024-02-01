@@ -1,11 +1,11 @@
 var i = 0;
 function time() {
   if (i == 0) {
-    var clocktime = 0.015740740740740740740740740740740740740740740740740740740740740740740740740740740740740740740740740740740740;
+    var clocktime = (1/54)
     i = 1;
     var elem = document.getElementById("timerbackground");
     var starttime = 90*60;
-    var width = 85;
+    var width = 100;
     var round = 0;
     var id = setInterval(frame, 1000);
     function frame() {
