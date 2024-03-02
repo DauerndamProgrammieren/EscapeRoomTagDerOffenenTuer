@@ -60,6 +60,8 @@ iframe {
     background-color: orangered;
     height: 12%;
     border-radius: 10px;
+    grid-template-colums: 35% 35%;
+    colum-gap: 10%
 }
 
 .tabletext {
