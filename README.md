@@ -15,6 +15,10 @@ git add .
 ```
 git commit -m "<Die commit Nachricht>"
 ```
+oder falls error:
+```
+git commit -a -m "<Die commit Nachricht>"
+```
 
 ```
 git push origin <die aufgabe die man macht (der branch name)>
