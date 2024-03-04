@@ -10,47 +10,11 @@
   <title>ASG - Escape Room - Tag der offenen Tür</title>
 </head>
 <body class="background" onload="time()">
-  .popup .popuptext {
-  visibility: hidden;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s;
-}
-
-@-webkit-keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
   <!--Header-->
     <div class="timercmd grid-container">
       <img src="https://aktionstage.asg-passau.de/img/asg-logo.jpg" height="100%" style="border-radius: 30%;">
       <div id="timerbackground">  <span id="timertext">60min</span><span id="timertextmin">0s</span></div>
-
+      <img src="https://www.youexit.de/wp-content/themes/youexit/assets/img/logo10@2x.png" style="border-radius: 20px;" height="100%">
     </div>
     <div>
       <div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;">
@@ -60,8 +24,8 @@
           allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe>
       </div>
     </div>
-    <div class="creditstable1" style="margin-top: 20px;">
-      <table style="width: 100%;" class="creditstable2">
+    <div class="creditstable" style="margin-top: 20px;">
+      <table style="width: 100%;">
         <tr>
           <th class="tabletext">Ein Projekt vom P-Sem Informatik - 2023 / 2024</th>
           <th class="tabletext">In Zusammenarbeit mit YouExit</th>
@@ -72,5 +36,4 @@
       </table>
     </div>
 </body>
-
 </html>
