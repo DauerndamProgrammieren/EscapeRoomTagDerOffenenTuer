@@ -1,6 +1,6 @@
 .grid-container {
     display: grid;
-    grid-template-columns: 60px auto;
+    grid-template-columns: 60px auto 160px;
     grid-template-rows: 60px;
     column-gap: 10px;
 }
@@ -56,18 +56,10 @@ iframe {
     border-color: #04AA6D;
 }
 
-.creditsTable1 {
+.creditsTable {
     background-color: orangered;
-    height: 12%;
+    height: auto;
     border-radius: 10px;
-}
-
-.creditsTable2 {
-    background-color: orangered;
-    height: 12%;
-    border-radius: 10px;
-    grid-template-colums: 35% 35%;
-    colum-gap: 10%
 }
 
 .tabletext {
