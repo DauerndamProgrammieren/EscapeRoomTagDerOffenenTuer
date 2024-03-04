@@ -1,10 +1,10 @@
 var i = 0;
 function time() {
   if (i == 0) {
-    var clocktime = (1/36)
+    var clocktime = (1/27)
     i = 1;
     var elem = document.getElementById("timerbackground");
-    var starttime = 60*60;
+    var starttime = 45*60;
     var width = 100;
     var round = 0;
     var id = setInterval(frame, 1000);
