@@ -1,3 +1,4 @@
+/* Responsive Web Design - Grid-View */
 .grid-container {
     display: grid;
     grid-template-columns: 60px auto 160px;
@@ -5,12 +6,12 @@
     column-gap: 10px;
 }
 
-
-
+/* Hintergrund der Website */
 .background {
     background-color: white;
 }
 
+/* Wird nicht verwendet */
 .banner {
     background-color: orangered;
     width: 100%;
@@ -18,11 +19,13 @@
     border-radius: 10px;
 }
 
+/* Abrundung des iframes */
 iframe {
     border-radius: 20px;
     margin-top: 10px;
 }
 
+/* Der sich bewegende Timer */
 #timerbackground {
     margin-top: 10px;
     background-color: rgb(113, 122, 158);
@@ -32,12 +35,14 @@ iframe {
     margin-top: -0.1px;
 }
 
+/* Timer hintergrund */
 .timercmd {
     background-color: orangered;
     height: 60px;
     border-radius: 20px;
 }
 
+/* Wird nicht benutzt, da kein Button */
 .button {
     transition-duration: 1s;
     border-color: #06c57f;
@@ -50,24 +55,28 @@ iframe {
     margin-top: 11px;
 }
 
+/* Wird nicht benutzt, da kein Button */
 .button:hover {
     background-color: #04AA6D;
     color: white;
     border-color: #04AA6D;
 }
 
+/* Die Tabelle der Credits */
 .creditsTable {
     background-color: orangered;
     height: auto;
     border-radius: 10px;
 }
 
+/* Schriftart der Einzelnen glieder der Tabelle */
 .tabletext {
     font-size: 125%;
     color: whitesmoke;
     font-family: "Arial", Times, serif;
 }
 
+/* Angabe der Minuten */
 #timertext {
     margin-left: 45%;
     font-size: 300%;
@@ -75,6 +84,7 @@ iframe {
     color: whitesmoke;
 }
 
+/* Angabe der Minuten */
 #timertextmin {
     margin-left: 1%;
     font-size: 300%;
