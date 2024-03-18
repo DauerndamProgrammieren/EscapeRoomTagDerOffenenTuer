@@ -9,13 +9,16 @@
 /* Hintergrund der Website */
 .background {
     background-color: white;
+    display: grid;
+    grid-template-rows: 7.7% auto auto;
+
 }
 
 /* Wird nicht verwendet */
 .banner {
     background-color: orangered;
     width: 100%;
-    height: 7.7%;
+    height: 100%;
     border-radius: 10px;
 }
 
