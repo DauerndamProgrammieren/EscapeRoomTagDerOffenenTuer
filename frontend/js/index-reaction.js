@@ -12,6 +12,7 @@ function time() {
       if (width <= 0) {
         clearInterval(id);
         i = 0;
+
       } else {
         var butin = document.getElementById("timertext");
         var butins = document.getElementById("timertextmin");
@@ -23,6 +24,9 @@ function time() {
         width = width - clocktime;
         elem.style.width = width + "%";
         round++;
+      }
+      if(clocktimemin <= 0 && clocktimesec <= 0){
+        document.location="https://escape.asg-passau.de/lost.html"
       }
     }
   }
